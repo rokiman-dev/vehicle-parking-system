@@ -32,4 +32,11 @@ public class ParkingLot
             Console.WriteLine("Slot is already empty.");
         }
     }
+
+    public void Status(){
+        Console.WriteLine("Slot\tLicensePlate\tType\tColor");
+        foreach(var slot in slots.Where(s => s.ParkedVehicle != null)){
+            Console.WriteLine($"{slot.SlotNumber}\t{slot.ParkedVehicle.lisencePlate}\t{slot.ParkedVehicle.Type}\t{slot.ParkedVehicle.color}");
+        }
+    }
 }
