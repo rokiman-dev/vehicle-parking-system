@@ -2,9 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace ParkingSystem
-
-public class ParkingLot
+namespace ParkingSystem{
+    public class ParkingLot
 {
     private List<Slot> slots;
 
@@ -16,8 +15,8 @@ public class ParkingLot
 
     public void Park(Vehicle vehicle)
     {
-        var availableSlot = slots.FirstOrDefualt(s => s.ParkedVehicle == null);
-        if (availableSlot = null){
+        var availableSlot = slots.FirstOrDefault(s => s.ParkedVehicle == null);
+        if (availableSlot == null){
             Console.WriteLine("Parking is full.");
             return;
         }
@@ -26,7 +25,7 @@ public class ParkingLot
     }
 
     public void Leave(int slotNumber){
-        var slot = slots.FirstOrDefualt(s => s.SlotNumber ==  slotNumber);
+        var slot = slots.FirstOrDefault(s => s.SlotNumber ==  slotNumber);
         if(slot?.ParkedVehicle != null){
             double hoursParked = (DateTime.Now - slot.ParkedVehicle .CheckInTime).TotalHours;
             int cost = (int)Math.Ceiling(hoursParked) * 5000;
@@ -40,7 +39,9 @@ public class ParkingLot
     public void Status(){
         Console.WriteLine("Slot\tLicensePlate\tType\tColor");
         foreach(var slot in slots.Where(s => s.ParkedVehicle != null)){
-            Console.WriteLine($"{slot.SlotNumber}\t{slot.ParkedVehicle.lisencePlate}\t{slot.ParkedVehicle.Type}\t{slot.ParkedVehicle.color}");
+            Console.WriteLine($"{slot.SlotNumber}\t{slot.ParkedVehicle.LicensePlate}\t{slot.ParkedVehicle.Type}\t{slot.ParkedVehicle.Color}");
         }
     }
 }
+}
+

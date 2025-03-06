@@ -1,3 +1,8 @@
+D:\OTHER\BEASISWA\ENIGMA\TEST\NTT\ParkingSystem\obj\Debug\net5.0\ParkingSystem.csproj.AssemblyReference.cache
+D:\OTHER\BEASISWA\ENIGMA\TEST\NTT\ParkingSystem\obj\Debug\net5.0\ParkingSystem.GeneratedMSBuildEditorConfig.editorconfig
+D:\OTHER\BEASISWA\ENIGMA\TEST\NTT\ParkingSystem\obj\Debug\net5.0\ParkingSystem.AssemblyInfoInputs.cache
+D:\OTHER\BEASISWA\ENIGMA\TEST\NTT\ParkingSystem\obj\Debug\net5.0\ParkingSystem.AssemblyInfo.cs
+D:\OTHER\BEASISWA\ENIGMA\TEST\NTT\ParkingSystem\obj\Debug\net5.0\ParkingSystem.csproj.CoreCompileInputs.cache
 D:\OTHER\BEASISWA\ENIGMA\TEST\NTT\ParkingSystem\bin\Debug\net5.0\ParkingSystem.exe
 D:\OTHER\BEASISWA\ENIGMA\TEST\NTT\ParkingSystem\bin\Debug\net5.0\ParkingSystem.deps.json
 D:\OTHER\BEASISWA\ENIGMA\TEST\NTT\ParkingSystem\bin\Debug\net5.0\ParkingSystem.runtimeconfig.json
@@ -5,11 +10,6 @@ D:\OTHER\BEASISWA\ENIGMA\TEST\NTT\ParkingSystem\bin\Debug\net5.0\ParkingSystem.r
 D:\OTHER\BEASISWA\ENIGMA\TEST\NTT\ParkingSystem\bin\Debug\net5.0\ParkingSystem.dll
 D:\OTHER\BEASISWA\ENIGMA\TEST\NTT\ParkingSystem\bin\Debug\net5.0\ref\ParkingSystem.dll
 D:\OTHER\BEASISWA\ENIGMA\TEST\NTT\ParkingSystem\bin\Debug\net5.0\ParkingSystem.pdb
-D:\OTHER\BEASISWA\ENIGMA\TEST\NTT\ParkingSystem\obj\Debug\net5.0\ParkingSystem.csproj.AssemblyReference.cache
-D:\OTHER\BEASISWA\ENIGMA\TEST\NTT\ParkingSystem\obj\Debug\net5.0\ParkingSystem.GeneratedMSBuildEditorConfig.editorconfig
-D:\OTHER\BEASISWA\ENIGMA\TEST\NTT\ParkingSystem\obj\Debug\net5.0\ParkingSystem.AssemblyInfoInputs.cache
-D:\OTHER\BEASISWA\ENIGMA\TEST\NTT\ParkingSystem\obj\Debug\net5.0\ParkingSystem.AssemblyInfo.cs
-D:\OTHER\BEASISWA\ENIGMA\TEST\NTT\ParkingSystem\obj\Debug\net5.0\ParkingSystem.csproj.CoreCompileInputs.cache
 D:\OTHER\BEASISWA\ENIGMA\TEST\NTT\ParkingSystem\obj\Debug\net5.0\ParkingSystem.dll
 D:\OTHER\BEASISWA\ENIGMA\TEST\NTT\ParkingSystem\obj\Debug\net5.0\ref\ParkingSystem.dll
 D:\OTHER\BEASISWA\ENIGMA\TEST\NTT\ParkingSystem\obj\Debug\net5.0\ParkingSystem.pdb
