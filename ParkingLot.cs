@@ -22,4 +22,14 @@ public class ParkingLot
         availableSlot.ParkedVehicle = vehicle;
         Console.WriteLine($"Allocated slot number: {availableSlot.SlotNumber}");
     }
+
+    public void Leave(int slotNumber){
+        var slot = slots.FirstOrDefualt(s => s.SlotNumber ==  slotNumber);
+        if(slot?.ParkedVehicle != null){
+            Console.WriteLine($"Slot {slot.SlotNumber} is now free");
+            slot.ParkedVehicle = null;
+        }else{
+            Console.WriteLine("Slot is already empty.");
+        }
+    }
 }
