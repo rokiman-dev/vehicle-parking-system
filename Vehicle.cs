@@ -1,7 +1,7 @@
 using System;
 
 namespace ParkingSystem{
-    public enum VehicleType { Car, Motorcycle }
+    public enum VehicleType { Mobil, Motor }
     public class Vehicle
 {
     public string LicensePlate { get; set; }
