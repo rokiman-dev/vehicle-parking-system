@@ -1,3 +1,5 @@
+namespace ParkingSystem
+
 public enum VehicleType { Car, Motorcycle }
 
 public class Vehicle

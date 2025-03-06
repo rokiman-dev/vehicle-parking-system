@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
+namespace ParkingSystem
+
 public class ParkingLot
 {
     private List<Slot> slots;

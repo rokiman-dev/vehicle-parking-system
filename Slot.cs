@@ -1,3 +1,5 @@
+namespace ParkingSystem
+
 public class Slot
 {
     public int SlotNumber { get; set; }
