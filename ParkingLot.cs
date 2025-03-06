@@ -28,7 +28,9 @@ public class ParkingLot
     public void Leave(int slotNumber){
         var slot = slots.FirstOrDefualt(s => s.SlotNumber ==  slotNumber);
         if(slot?.ParkedVehicle != null){
-            Console.WriteLine($"Slot {slot.SlotNumber} is now free");
+            double hoursParked = (DateTime.Now - slot.ParkedVehicle .CheckInTime).TotalHours;
+            int cost = (int)Math.Ceiling(hoursParked) * 5000;
+            Console.WriteLine($"Vehicle {slot.ParkedVehicle.LicensePlate} left. Fee: {cost} IDR.");
             slot.ParkedVehicle = null;
         }else{
             Console.WriteLine("Slot is already empty.");
