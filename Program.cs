@@ -6,7 +6,7 @@ namespace ParkingSystem
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Parking System Initialized");
         }
     }
 }
